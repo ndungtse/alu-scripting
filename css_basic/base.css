@@ -1,0 +1,61 @@
+/* Base styles */
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  color: #222;
+}
+
+header ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+header li {
+  display: inline-block;
+}
+
+header a {
+  display: block;
+  padding: 12px 16px;
+  text-decoration: none;
+}
+
+article,
+aside {
+  padding: 16px;
+}
+
+footer {
+  padding: 12px 16px;
+  text-align: center;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+.logo {
+  font-size: 2em;
+  line-height: 1;
+}
+
+/* Layout degrades to a single column on small screens */
+@media (max-width: 800px) {
+  .works_on_smartphone main {
+    flex-direction: column;
+  }
+}

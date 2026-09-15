@@ -1,0 +1,72 @@
+/* Layout (Flexbox) */
+body {
+  display: flex;
+  flex-direction: column;
+}
+
+main {
+  display: flex;
+  flex-direction: row;
+  flex: auto;
+}
+
+article {
+  flex: 2;
+  overflow-y: auto;
+}
+
+aside {
+  flex: 1;
+  overflow-y: auto;
+}
+
+/* Look and feel */
+body {
+  background-color: #f4f6f8;
+}
+
+header {
+  background-color: #1f2a44;
+}
+
+header a {
+  color: #fff;
+}
+
+header a:hover {
+  background-color: #34456f;
+}
+
+article {
+  background-color: #fff;
+}
+
+article h1 {
+  color: #1f2a44;
+  border-bottom: 3px solid #e63946;
+  padding-bottom: 8px;
+}
+
+article h2,
+article h3 {
+  color: #34456f;
+}
+
+article a {
+  color: #e63946;
+}
+
+aside {
+  background-color: #e9edf3;
+  border-left: 1px solid #cfd6e1;
+  font-style: italic;
+}
+
+footer {
+  background-color: #1f2a44;
+  color: #fff;
+}
+
+footer a {
+  color: #ffb4ba;
+}
